@@ -33,8 +33,10 @@ We conducted manual hyperparameter testing by experimenting with LSTM unit value
  - Model 2: Bi-Directional LSTM, alongside three reference models from TensorFlow (Dense, Conv, LSTM).
 Custom Models: MyLSTM_1 and MyLSTM_2, both outperforming reference models.
 Our best model featured bidirectional LSTMs with two custom forward and backward layers, two dense layers (512 units each), and a single-unit output layer. It achieved superior performance with low variance over multiple training epochs.
-![image](https://github.com/user-attachments/assets/462cff04-70ca-4543-9183-b9800f5a697e)
-![image](https://github.com/user-attachments/assets/dad9485e-c1d3-49a0-9a2a-3260f4efe113)
+
+ ![image](https://github.com/user-attachments/assets/462cff04-70ca-4543-9183-b9800f5a697e)
+
+ ![image](https://github.com/user-attachments/assets/dad9485e-c1d3-49a0-9a2a-3260f4efe113)
 
 
 
